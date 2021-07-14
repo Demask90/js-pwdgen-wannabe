@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    position: relative;
+    animation-name: gigi;
+    animation-duration: 2s;
+    animation-play-state: paused;
+}
+
+
+#title , #pswgen {
+    position: absolute;
+    transform: translate(-50% , -50%);
+    animation-name: gigi;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    color: black;
+}
+
+button{
+    position: absolute;
+    left: 50vw;
+    top: 70vh; 
+    transform: translate(-50% , -50%);
+    font-size: 3em
+}
+
+#title{
+    font-size: 5em;
+    left: 50vw;
+    top: 20vh;
+    width: 100%;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+#pswgen {
+    font-size: 3em;
+    left: 50vw;
+    top: 50vh;
+}
+
+@keyframes gigi {
+    0%   {color:wheat; background-color:wheat;}
+    20%  {color:blueviolet;background-color:blueviolet;}
+    40%  {color: aqua;background-color: aqua;}
+    60%  {color: mediumaquamarine;background-color: mediumaquamarine;}
+    80% {color: teal;background-color: teal;}
+    100%  {color: black;background-color: wheat;}
+}
+
+
+
+
+
+
